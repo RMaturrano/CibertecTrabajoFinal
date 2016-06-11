@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navListaCliente"
+            android:checked="true"
+            android:icon="@drawable/ic_accessibility_white_24dp"
+            android:title="@string/texto_menu_clientes" />
+
+        <item
+            android:id="@+id/navListaProducto"
+            android:icon="@drawable/ic_view_stream_white_24dp"
+            android:title="@string/texto_menu_productos" />
+
+        <item
+            android:id="@+id/navListaPedido"
+            android:icon="@drawable/ic_shopping_cart_white_24dp"
+            android:title="@string/texto_menu_pedidos" />
+
+        <item android:id="@+id/navCerrarSesion"
+            android:icon="@drawable/ic_power_settings_new_white_24dp"
+            android:title="@string/texto_menu_cerrar_sesion"/>
+    </group>
+</menu>

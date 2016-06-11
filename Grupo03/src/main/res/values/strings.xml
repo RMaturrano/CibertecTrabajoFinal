@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Captura Pedido</string>
+    <string name="app_login_user">Usuario</string>
+    <string name="app_login_pass">Contraseña</string>
+    <string name="app_login_btn">Iniciar sesión</string>
+
+    <string name="app_title_tollbar_cliente">Captura Pedido</string>
+    <string name="app_title_tollbar_ncliente">Nuevo Cliente</string>
+    <string name="app_title_tollbar_nproducto">Nuevo Producto</string>
+    <string name="app_title_tollbar_producto">Productos</string>
+    <string name="app_title_tollbar_pedidos">Pedidos</string>
+    <string name="app_title_tollbar_npedidos">Nuevo Pedido</string>
+    <string name="app_title_tollbar_dpedido">Detalle del Pedido</string>
+    <string name="app_title_tollbar_sproducto">Seleccionar producto</string>
+
+    <string name="app_ncliente_tilContacto">Contacto</string>
+    <string name="app_ncliente_tilNombre">Nombre</string>
+    <string name="app_ncliente_tilApellido">Apellido</string>
+    <string name="app_ncliente_tilTelef">Telefono</string>
+    <string name="app_ncliente_tilCorreo">Correo</string>
+    <string name="app_ncliente_tilEmpresa">Nombre de la empresa</string>
+    <string name="app_ncliente_tilDir">Direccion</string>
+    <string name="app_ncliente_tilDistrito">Distrito</string>
+    <string name="app_ncliente_tilReferencia">Referencia</string>
+
+    <string name="app_dpedido_tvCliente">Cliente</string>
+    <string name="app_dpedido_tvPCarrito">Productos del carrito</string>
+    <string name="app_dpedido_tvTotal">Total</string>
+    <string name="app_dpedido_tvCantidad">Cantidad</string>
+    <string name="app_dpedido_tvElijeCantidad">Elija la cantidad</string>
+    <string name="app_dpedido_tvMonto">Monto</string>
+    <string name="app_sproducto_tvoPSeleccionado">Producto Seleccionado</string>
+
+
+    <string name="app_ncliente_tilPNombre">Nombre</string>
+    <string name="app_ncliente_tilPDescripcion">Descripción</string>
+    <string name="app_ncliente_tilPPrecio">Precio</string>
+    <string name="app_ncliente_tilPPrecioUnitario">Unit price</string>
+
+    <string name="app_nav_item_clientes">Clientes</string>
+    <string name="app_nav_item_productos">Productos</string>
+    <string name="app_nav_item_pedidos">Pedidos</string>
+    <string name="app_nav_item_cerrar">Cerrar sesión</string>
+
+    <string name="app_spedido_btnAgregaCarrito">Agregar al carrito</string>
+
+    <string name="app_mensaje_error">Error</string>
+    <string name="app_mensaje_exito">Exito</string>
+    <string name="app_mensaje_alerta">Alerta</string>
+
+    <string name="app_npedido_mensaje_eliminado">Se ha eliminado el producto del carrito</string>
+    <string name="app_npedido_mensaje_guardar">Pedido Guardado</string>
+    <string name="app_npedido_mensaje_alerta_noitem">No hay items en el carrito</string>
+     <string name="app_npedido_mensaje_alerta_selectitem">Seleccione un cliente</string>
+
+    <string name="google_api_key">AIzaSyAlkn0UK0ANonMkWuRFkX_0lWAAd-tR5-g</string>
+</resources>

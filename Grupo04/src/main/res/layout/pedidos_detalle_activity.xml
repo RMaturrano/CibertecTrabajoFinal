@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E0ECF8">
+
+    <!-- Toolbar que va a reemplazar al actionbar -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbardetallePedidos"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:elevation="@dimen/toolbarElevation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/tvPedidoDetalleCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlank"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:text="@string/hintCliente"
+            android:textColor="@color/colorBlank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <!-- RecyclerView que tiene los datos -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvPedidosDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/hintTotal"
+            android:textColor="@color/colorBlank"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/tvPedidoDetalleTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlank"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

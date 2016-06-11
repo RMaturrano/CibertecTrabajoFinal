@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Order capture</string>
+    <string name="app_login_user">User</string>
+    <string name="app_login_pass">Password</string>
+    <string name="app_login_btn">Login</string>
+
+    <string name="app_title_tollbar_cliente">Order capture</string>
+    <string name="app_title_tollbar_ncliente">New Customer</string>
+    <string name="app_title_tollbar_nproducto">New Product</string>
+    <string name="app_title_tollbar_producto">Products</string>
+    <string name="app_title_tollbar_pedidos">Orders</string>
+    <string name="app_title_tollbar_npedidos">New Order</string>
+    <string name="app_title_tollbar_dpedido">Order Detail</string>
+    <string name="app_title_tollbar_sproducto">Select product</string>
+
+
+    <string name="app_ncliente_tilContacto">Contact</string>
+    <string name="app_ncliente_tilNombre">Name</string>
+    <string name="app_ncliente_tilApellido">Last name</string>
+    <string name="app_ncliente_tilTelef">Telephone</string>
+    <string name="app_ncliente_tilCorreo">Email</string>
+    <string name="app_ncliente_tilEmpresa">Company name</string>
+    <string name="app_ncliente_tilDir">Address</string>
+    <string name="app_ncliente_tilDistrito">District</string>
+    <string name="app_ncliente_tilReferencia">Reference</string>
+
+    <string name="app_dpedido_tvPCarrito">Products cart</string>
+    <string name="app_dpedido_tvCliente">Customer</string>
+    <string name="app_dpedido_tvTotal">Total</string>
+    <string name="app_dpedido_tvCantidad">Quantity</string>
+    <string name="app_dpedido_tvElijeCantidad">Choose quantity</string>
+    <string name="app_dpedido_tvMonto">Amount</string>
+    <string name="app_sproducto_tvoPSeleccionado">Selected product</string>
+
+    <string name="app_ncliente_tilPNombre">Name</string>
+    <string name="app_ncliente_tilPDescripcion">Description</string>
+    <string name="app_ncliente_tilPPrecio">Price</string>
+    <string name="app_ncliente_tilPPrecioUnitario">Unit price</string>
+
+    <string name="app_spedido_btnAgregaCarrito">Add to cart</string>
+
+    <string name="app_nav_item_clientes">Customers</string>
+    <string name="app_nav_item_productos">Products</string>
+    <string name="app_nav_item_pedidos">Orders</string>
+    <string name="app_nav_item_cerrar">Sign Off</string>
+
+    <string name="app_mensaje_error">Error</string>
+   <string name="app_mensaje_exito">Success</string>
+    <string name="app_mensaje_alerta">Alert</string>
+
+    <string name="app_npedido_mensaje_eliminado">The product has been removed from the cart</string>
+    <string name="app_npedido_mensaje_guardar">Order saved</string>
+    <string name="app_npedido_mensaje_alerta_noitem">No items in cart</string>
+    <string name="app_npedido_mensaje_alerta_selectitem">Select a client</string>
+
+</resources>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbEditCliente"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextAppearance="@color/colorBlanco"
+        android:background="@drawable/toolbar_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.73"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1">
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:padding="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            app:cardBackgroundColor="#f56f6c">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <TextView
+                android:id="@+id/tvIdCliEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tvbnombre"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivcall"
+                    android:background="@drawable/ic_local_phone_black_24dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvNomCliEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="Nombre"
+                android:theme="@style/MyTextViewCardData"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:theme="@style/MyTextViewCardHeader"
+                android:text="Nombre"
+                android:id="@+id/tvbnombre"
+                android:layout_below="@+id/tvNomCliEdit"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:id="@+id/llcab_ec"
+                android:layout_below="@+id/tvbnombre"
+                >
+
+                <TextView
+                    android:id="@+id/tvApellCliEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Apellido"
+                    android:theme="@style/MyTextViewCardData"/>
+
+                <TextView
+                    android:id="@+id/tvTelfCliEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:hint="Telefono"
+                    android:theme="@style/MyTextViewCardData"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Apellido"
+                android:id="@+id/tvbapellido"
+                android:layout_below="@+id/llcab_ec"
+                android:theme="@style/MyTextViewCardHeader" />
+
+
+            <TextView
+                android:id="@+id/tvCorreoCliEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="Correo"
+                android:layout_below="@+id/tvbapellido"
+                android:theme="@style/MyTextViewCardData"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Correo"
+                android:id="@+id/tvbcorreo"
+                android:layout_below="@+id/tvCorreoCliEdit"
+                android:theme="@style/MyTextViewCardHeader" />
+
+
+        </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="4dp"
+            card_view:cardCornerRadius="3dp"
+            android:layout_weight="0.34">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvDirCliEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Direccion"
+            android:theme="@style/MyTextViewCardData"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Dirección"
+                android:id="@+id/tvbdirección"
+                android:layout_below="@+id/tvDirCliEdit"
+                android:theme="@style/MyTextViewCardHeader" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/lldet_ec"
+                android:layout_below="@+id/tvbdirección"
+                android:weightSum="1">
+
+
+            <TextView
+            android:id="@+id/tvDistCliEdit"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Distrito"
+            android:layout_below="@+id/tvDirCliEdit"
+            android:theme="@style/MyTextViewCardData"
+                android:layout_weight="0.37" />
+
+            <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/ivpoint"
+            android:background="@drawable/ic_location_on_black_24dp"
+            android:layout_toRightOf="@+id/tvDistCliEdit" />
+
+
+
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvRefCliEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Referencia"
+            android:layout_below="@+id/lldet_ec"
+            android:theme="@style/MyTextViewCardData"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Referencia"
+                android:id="@+id/tvbreferencia"
+                android:layout_below="@+id/tvRefCliEdit"
+                android:theme="@style/MyTextViewCardHeader" />
+
+        </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btCliPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Pedido"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorBlanco" />
+</LinearLayout>

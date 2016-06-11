@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_productos"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+    <item
+        android:id="@+id/btnAgregar"
+        android:icon="@drawable/ic_add_circle_outline_white_24dp"
+        android:title="@string/btnAgregar"
+        app:showAsAction="always" />
+</menu>

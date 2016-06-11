@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Login Activity-->
+    <dimen name="tituloLoginActivity">26sp</dimen>
+
+    <!-- Splash Activity-->
+    <dimen name="tituloSplashActivity_size">40sp</dimen>
+
+    <!-- Toolbar elevation-->
+    <dimen name="toolbarElevation">5dp</dimen>
+
+    <!-- NaVIGATION VIEW -->
+    <dimen name="header_left_padding">16dp</dimen>
+    <dimen name="header_height">192dp</dimen>
+    <dimen name="perfil_image_size">64dp</dimen>
+
+    <!-- Clientes -->
+    <dimen name="size_title_contacto_nuevo_cliente">20sp</dimen>
+    <dimen name="size_edittext_nuevo_cliente">14sp</dimen>
+
+    <!-- Hint sizes -->
+    <dimen name="hint_size_card">11sp</dimen>
+    <dimen name="size_label_screen_18">18sp</dimen>
+</resources>

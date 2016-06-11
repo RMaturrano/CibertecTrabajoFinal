@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Captura Pedido</string>
+
+    <!-- splash activity -->
+    <string name="tituloSplash">Captura Pedido</string>
+
+
+    <!-- Login activity -->
+    <string name="tituloLogin">Identificación</string>
+    <string name="hintUsuarioLogin">Usuario</string>
+    <string name="hintPasswordLogin">Password</string>
+    <string name="botonIngresarLogin">Ingresar</string>
+
+    <!-- Menú lateral -->
+    <string name="Clientes">Clientes</string>
+    <string name="Productos">Productos</string>
+    <string name="Pedidos">Pedidos</string>
+    <string name="CerrarSesion">Cerrar Sesión</string>
+
+    <!-- API DE GOOGLE MAPS-->
+    <string name="google_api_key">AIzaSyAlkn0UK0ANonMkWuRFkX_0lWAAd-tR5-g</string>
+
+    <!-- TOOLBAR MENU TITULOS-->
+    <string name="action_search">Buscar</string>
+
+    <!-- Títulos de pantallas -->
+    <string name="tituloClienteNuevo">Cliente nuevo</string>
+    <string name="tituloProductoNuevo">Producto nuevo</string>
+    <string name="tituloProductoLista">Productos</string>
+    <string name="tituloPedidoLista">Pedidos</string>
+    <string name="titleContacto">Contacto</string>
+    <string name="tituloNuevoPedido">Nuevo Pedido</string>
+
+    <string name="tituloSeleccioneProducto">Seleccione un producto</string>
+    <string name="tituloDetallePedido">Detalle del pedido</string>
+
+    <!-- Detalle Pedido Titulo -->
+
+    <string name="tituloProductosCarrito">Productos del Carrito</string>
+
+    <!-- HINTS -->
+    <string name="hintNombre">Nombre</string>
+    <string name="hintApellido">Apellido</string>
+    <string name="hintTelefono">Teléfono</string>
+    <string name="hintCorreo">Correo</string>
+    <string name="hintEmpresa">Empresa</string>
+    <string name="hintDireccion">Dirección</string>
+    <string name="hintDistrito">Distrito</string>
+    <string name="hintReferencia">Referencia</string>
+    <string name="hintDescripcion">Descripción</string>
+    <string name="hintPrecioUnitario">Precio unitario</string>
+    <string name="hintCliente">Cliente</string>
+    <string name="hintMonto">Monto</string>
+    <string name="hintCantidad">Cantidad</string>
+    <string name="hintTotal">Total: </string>
+    <string name="hintAgregarAlcarrito">Agregar al carrito </string>
+    <string name="hintElijaCantidad">Elija la cantidad: </string>
+    <string name="hintProductoSeleccionado">Producto seleccionado</string>
+    <string name="hintProductoCarrito">Productos del carrito</string>
+
+    <!-- Botones -->
+    <string name="btnNuevoPedido">Nuevo pedido</string>
+    <string name="btnAgregarCarrito">Agregar al Carrito</string>
+
+</resources>

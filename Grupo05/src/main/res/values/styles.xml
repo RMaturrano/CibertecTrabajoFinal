@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#66000000</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyTextViewCardHeader" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MyTextViewStyleCard</item>
+    </style>
+
+    <style name="MyTextViewStyleCard" parent="android:Widget.TextView">
+        <item name="android:textColor">#66000000</item>
+        <item name="android:textSize">@dimen/recycler_text_head</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="MyTextViewCardData" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MyTextViewStyleCardData</item>
+    </style>
+
+    <style name="MyTextViewStyleCardData" parent="android:Widget.TextView">
+
+        <item name="android:textSize">@dimen/recycler_text_det</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="MyTextViewPrecio" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MyTextViewStylePrecio</item>
+    </style>
+
+    <style name="MyTextViewStylePrecio" parent="android:Widget.TextView">
+        <item name="android:textColor">#FF2BAB1D</item>
+        <item name="android:textSize">@dimen/dim_precio</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+    <style name="MyEditTextCRUD" parent="android:Theme">
+        <item name="android:textViewStyle">@style/MyEditTextStyleCRUD</item>
+    </style>
+
+    <style name="MyEditTextStyleCRUD" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/edittextcrud</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinnerItemStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+
+
+</resources>

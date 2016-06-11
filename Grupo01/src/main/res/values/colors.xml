@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#003366</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentPress">#D32F2F</color>
+
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorRojo">#ff0000</color>
+
+
+    <color name="contador">#D9D9F3</color>
+
+    <color name="fuxia">#ef5282</color>
+    <color name="amarilloS">#ffd948</color>
+    <color name="naranja">#fc992b</color>
+    <color name="azulS">#5b8ddb</color>
+
+    <color name="naranjaClaro">#FED09C</color>
+    <color name="naranjaTexto">#FF7F00</color>
+    <color name="naranjaPastel">#FADFCB</color>
+
+
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="azul">#004370</color>
+    <color name="gris">#E3E3E3</color>
+    <color name="amarillo">#FFFF00</color>
+    <!--     <color name="azul">#0000FF</color> -->
+    <color name="rojo">#FF0000</color>
+    <color name="verde">#00FF00</color>
+    <color name="ceniza">#B2BEB5</color>
+    <color name="azul1">#4682B4</color>
+    <color name="azul2">#0C3168</color>
+    <color name="amarillofuerte">#FFD905</color>
+
+    <color name="plomo">#808080</color>
+    <color name="plomoTransparente">#FFDDDDDD</color>
+    <color name="moradoLista">#35272e</color>
+    <color name="azulBarra">#004370</color>
+    <color name="guindaTexto">#7E0047</color>
+    <color name="celeste">#74C5C1</color>
+    <color name="celesteTexto">#366EAF</color>
+    <color name="celesteBtn">#5089C9</color>
+    <color name="celesteClaro">#366EAF</color>
+    <color name="blancoTransparente80">#80FFFFFF</color>
+    <color name="blancoTransparente40">#40FFFFFF</color>
+    <color name="celesteOscuroFondo">#379FEA</color>
+    <color name="celesteClaroFondo">#DBF0EF</color>
+    <color name="celesteClaroLista">#B8EDED</color>
+    <color name="celesteOscuroLista">#4FB7B8</color>
+    <color name="negroTransparente00">#00000000</color>
+    <color name="verdeTransparente50">#501C8B84</color>
+    <color name="blancoTransparente00">#00FFFFFF</color>
+
+    <color name="barra01">#4D902B</color>
+    <color name="barra02">#366EAF</color>
+    <color name="barra03">#EA5932</color>
+    <color name="barra04">#000</color>
+
+
+    <color name="azulBarraTrans">#60004370</color>
+    <color name="celesteBtnTrans">#60004370</color>
+    <color name="celesteTextoTrans">#80366EAF</color>
+
+
+</resources>

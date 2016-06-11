@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dlClientes"
+    android:background="@drawable/bk3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            app:titleTextColor="@color/blanco"
+            app:theme="@style/ToolbarColoredBackArrow"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvCliente"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nvMenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFF"
+        android:layout_marginRight="56dp"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/activity_menu_header"
+        app:itemBackground="@drawable/selector_nvmenu_backgroundcolor"
+        app:itemIconTint="@color/selector_nvmenu_iconcolor"
+        app:itemTextColor="@color/selector_nvmenu_textcolor"
+        app:menu="@menu/left_menu" />
+</android.support.v4.widget.DrawerLayout>

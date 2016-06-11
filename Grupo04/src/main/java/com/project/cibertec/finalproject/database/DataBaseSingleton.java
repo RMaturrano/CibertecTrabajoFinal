@@ -1,0 +1,27 @@
+package com.project.cibertec.finalproject.database;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+
+/**
+ * Created by Android-SAB-PM on 14/05/2016.
+ */
+public class DataBaseSingleton {
+
+
+    private static DataBaseHelper dataBaseHelper;
+    private static Context mContext;
+
+    public DataBaseSingleton(Context context) {
+        this.mContext = context;
+    }
+
+    public static SQLiteDatabase getInstance() {
+        if (dataBaseHelper == null) {
+            dataBaseHelper = new DataBaseHelper(mContext);
+            dataBaseHelper.openDataBase();
+        }
+
+        return dataBaseHelper.getWritableDatabase();
+    }
+}

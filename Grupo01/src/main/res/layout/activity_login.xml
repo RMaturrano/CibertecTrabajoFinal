@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/saledayin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="10pt"
+        android:paddingBottom="4pt"
+        android:src="@drawable/lelogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+<!--        <EditText
+            android:id="@+id/edt_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="18pt"
+            android:layout_marginLeft="25pt"
+            android:layout_marginRight="25pt"
+            android:layout_marginTop="50pt"
+            android:layout_marginBottom="5pt"
+            android:hint="@string/login_texto_usuario_hint"
+            android:textColor="#FAFCEF"
+            android:textColorHint="#fff"
+            android:singleLine="true"/>-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <AutoCompleteTextView
+                android:id="@+id/edt_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/login_texto_usuario_hint"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <AutoCompleteTextView
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/login_texto_clave_hint"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btn_ingresar"
+            android:layout_width="60pt"
+            android:layout_height="20pt"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btningresar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        style="@style/txv_menu_titulo">
+        <TextView
+            android:id="@+id/edt_error"
+            style="@style/txv_menu_titulo"
+            android:textColor="#cc1" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">TrabajoFinalCB</string>
+    <string name="logo">Logo</string>
+    <string name="login_texto_usuario">Usuario</string>
+    <string name="login_texto_usuario_hint">Nombre</string>
+    <string name="login_texto_clave">Clave</string>
+    <string name="login_texto_clave_hint">Contraseña</string>
+    <string name="login_boton_entrar">Entrar</string>
+    <string name="login_texto_imagen">Imagen</string>
+    <string name="login_texto_error_vacio_usuario">Ingrese Usuario</string>
+    <string name="login_texto_error_vacio_clave">Ingrese Clave</string>
+    <string name="login_texto_error_credenciales_incorrectas">Credenciales Incorrectas</string>
+    <string name="login_olvido_clave"><u>Olvidé mi contraseña</u></string>
+    <string name="login_crear_nueva_cuenta">Crear nueva cuenta</string>
+    <string name="mensaje_error_cliente">Error Registro Cliente</string>
+    <string name="texto_splash_screen">Registro de Pedido</string>
+
+    <!-- Para nombre de botones -->
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnEliminar">Eliminar</string>
+
+    <!--Para el registro de Cliente -->
+    <string name="error_vacio_nombre_contacto">Ingrese su nombre de contacto</string>
+    <string name="error_maxlength_nombre_contacto">Su nombre no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_apellido_contacto">Ingrese su apellido de contacto</string>
+    <string name="error_maxlength_apellido_contacto">Su apellido no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_telefono_contacto">Ingrese su telefono de contacto</string>
+    <string name="error_maxlength_telefono_contacto">El telefono debe ser de 9 digitos</string>
+    <string name="error_vacio_correo_contacto">Ingrese su correo de contacto</string>
+    <string name="error_formato_correo_contacto">Formato de correo incorrecto</string>
+    <string name="error_maxlength_correo_contacto">Su correo no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_nombre_empresa">Ingrese su nombre de empresa</string>
+    <string name="error_maxlength_nombre_empresa">Su nombre de empresa no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_direccion_empresa">Ingrese su dirección de empresa</string>
+    <string name="error_maxlength_direccion_empresa">Su dirección de empresa no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_distrito_empresa">Ingrese su distrito de empresa</string>
+    <string name="error_maxlength_distrito_empresa">Su distrito de empresa no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_referencia_empresa">Ingrese su referencia de empresa</string>
+    <string name="error_maxlength_referencia_empresa">Su distrito de empresa no puede tener más de 50 caracteres</string>
+    <string name="error_vacio_mapa_empresa">Debe seleccionar una ubicacion en el mapa</string>
+    <string name="texto_nuevo_cliente">Nuevo Cliente</string>
+    <string name="texto_detalle_cliente">Detalle Cliente</string>
+    <string name="texto_mensaje_insertado">ha sido insertado</string>
+    <string name="texto_mensaje_actualizado">ha sido actualizado</string>
+    <string name="error_insertar_cliente">No se pudo insertar en la base de datos</string>
+    <string name="error_actualizar_cliente">No se pudo actualizar en la base de datos</string>
+
+    <string name="texto_label_contacto">Contacto</string>
+    <string name="texto_nombre_contacto">Nombre</string>
+    <string name="texto_apellido_contacto">Apellido</string>"
+    <string name="texto_telefono_contacto">Teléfono</string>
+    <string name="texto_correo_contacto">Correo</string>
+    <string name="texto_nombre_empresa">Nombre de la empresa</string>
+    <string name="texto_direccion_empresa">Dirección</string>
+    <string name="texto_distrito_empresa">Distrito</string>
+    <string name="texto_referencia_empresa">Referencia</string>
+    <string name="texto_nuevo_pedido">Nuevo Pedido</string>
+
+    <string name="texto_label_producto">Producto</string>
+    <string name="texto_nombre_producto">Nombre Producto</string>
+    <string name="texto_cantidad_stock_producto">Cantidad Stock</string>
+    <string name="texto_cantidad_precio_unitario">Precio Unitario</string>
+    <string name="texto_detalle_producto">Detalle Producto</string>
+    <string name="texto_nuevo_producto">Nuevo Producto</string>
+    <string name="error_vacio_nombre_producto">Ingrese Nombre del Producto</string>
+    <string name="error_maxlength_nombre_producto">El tamaño de Nombre de Productos debe de ser menor de 20</string>
+    <string name="error_vacio_stock">Ingrese Stock</string>
+    <string name="error_vacio_precio_unitario">Ingrese Precio</string>
+
+    <string name="texto_label_pedido_producto">Producto</string>
+    <string name="texto_pedido_nombre_producto">Nombre Producto</string>
+    <string name="texto_label_pedido_cantidadstock">Cantidad Stock</string>
+    <string name="texto_label_pedido_precio_unitario">Precio Unitario</string>
+    <string name="texto_label_pedido_nombre_cliente">Nombre del Cliente</string>
+    <string name="texto_label_pedido_productos_carrito">Productos del Carrito</string>
+    <string name="texto_label_pedido_total">Total</string>
+    <string name="texto_label_pedido_producto_seleccionado">Producto Seleccionado</string>
+    <string name="texto_label_pedido_cantidad_producto">Cantidad :</string>
+    <string name="texto_label_pedido_monto_total_producto">Total :</string>
+    <string name="texto_label_pedido_agregar_carrito">Agregar a Carrito</string>
+    <string name="texto_label_pedido_detalle">Detalle del Pedido</string>
+    <string name="texto_label_pedido">Pedido</string>
+    <string name="texto_label_pedido_cliente">Cliente</string>
+    <string name="texto_label_pedido_nuevo">Nuevo Pedido</string>
+    <string name="texto_label_pedido_seleccionar">Seleccione Producto</string>
+    <string name="error_cantidad_pedido">Falta Cantidad</string>
+    <string name="error_escoger_producto_pedido">Escoger Producto</string>
+    <string name="texto_producto_agregado_carrito">Producto Agregado al carrito</string>
+
+    <string name="texto_menu_nombre_usuario">Nombre de Usuario</string>
+    <string name="texto_menu_clientes">Clientes</string>
+    <string name="texto_menu_productos">Productos</string>
+    <string name="texto_menu_pedidos">Pedidos</string>
+    <string name="texto_menu_cerrar_sesion">Cerrar Sesión</string>
+
+    <string name="google_api_key">AIzaSyAlkn0UK0ANonMkWuRFkX_0lWAAd-tR5-g</string>
+    <string name="latitud_default_map_inicio">-12.096524</string>
+    <string name="longitud_dafault_map_inicio">-77.035528</string>
+    <string name="latitud_default_map_fin">-12.087321</string>
+    <string name="longitud_dafault_map_fin">-76.996592</string>
+    <string name="mensaje_sms_inicio">Estimado</string>
+    <string name="mensaje_sms_fin">, Saleday les dá la bienvenida a nuestros servicios.</string>
+
+
+</resources>

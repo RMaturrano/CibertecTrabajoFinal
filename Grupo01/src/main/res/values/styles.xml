@@ -1,0 +1,250 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+          <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+          <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+          <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="android:textColorPrimary">@color/negro</item>
+        <!--<item name="android:textColor">@color/negro</item>-->
+        <item name="android:textColorHint">@color/ceniza</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#000000</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="splash" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#333</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#00CBD4</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#003366</item>
+        <item name="colorPrimaryDark">#00050C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#000000</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/blanco</item>
+        <item name="android:background">#3F51B5</item>
+    </style>
+
+    <style name="CustomButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="CustomButton.Two">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="menuizquierda" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="android:textColorPrimary">@color/negro</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:textColorHint">@color/ceniza</item>
+    </style>
+
+
+    <style name="geox" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#333</item>
+        <item name="colorPrimaryDark">#333</item>
+        <item name="colorAccent">#00CBD4</item>
+    </style>
+
+    <!-- LAYOUT -->
+
+    <style name="Layout_MWV">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_MMV">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_WWV">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_MWH">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_WWH">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_MMH">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_0dipMH">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Layout_0dipMV">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_0dipWV">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Layout_MM">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout_MW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Layout_WM">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout_WW">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--     ACTIVITY_LOGIN_CONTROLLER -->
+    <style name="txv_login_titulo_mw" parent="Layout_MW">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginTop">110dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/azulS</item>
+    </style>
+
+    <style name="layout_login_margin_icono_text" parent="Layout_MWH">
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <style name="layout_login_weight_icono" parent="Layout_MWH">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="layout_login_weight_text" parent="Layout_MWH">
+        <item name="android:layout_weight">0.3</item>
+    </style>
+
+    <style name="edt_login_usuario_mw" parent="Layout_MW">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="edt_login_password_mw" parent="Layout_MW">
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="btn_login_ingresar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/azul</item>
+    </style>
+
+    <style name="btn_login_ADD">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/azul</item>
+    </style>
+
+
+
+    <!-- modulo menu -->
+
+    <!--     ACTIVITY_CONSULTA_CONTROLLER -->
+    <style name="txv_menu_titulo" parent="Layout_MW">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:textColor">@color/azul</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="layout_weight_leyenda" parent="Layout_MWV">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="img_consultaExpediente_estado">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5sp</item>
+    </style>
+
+
+    <style name="img_lista_menu_foto">
+        <item name="android:layout_width">180sp</item>
+        <item name="android:layout_height">180sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="img_lista_menu">
+        <item name="android:layout_width">40sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="img_lista_menu_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grPrimero"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nvItemclientes"
+            android:checked="false"
+            android:icon="@drawable/ic_account_circle_24dp"
+            android:title="@string/Clientes" />
+
+        <item
+            android:id="@+id/nvItemProductos"
+            android:checked="false"
+            android:icon="@drawable/ic_product_black_24dp"
+            android:title="@string/Productos" />
+
+        <item
+            android:id="@+id/nvItemPedidos"
+            android:checked="false"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="@string/Pedidos" />
+    </group>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nvItemCerrarSesion"
+            android:checked="false"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/CerrarSesion" />
+    </group>
+
+
+</menu>

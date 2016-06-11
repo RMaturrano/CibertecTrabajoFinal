@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9800</color>
+    <color name="colorPrimaryDark">#e65100</color>
+    <color name="colorAccent">#212121</color>
+    <color name="colorBlanco">#ffffff</color>
+
+    <color name="border_edittext">#ffffff</color>
+
+    <color name="bg_edittext">#66ffffff</color>
+    <color name="bg_btlogin">#ff424242</color>
+    <color name="bg_menu">#ffffff</color>
+    <color name="colorverde">#2bab1d</color>
+
+
+</resources>

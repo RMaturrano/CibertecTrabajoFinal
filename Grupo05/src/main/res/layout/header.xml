@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/background_material"
+    android:orientation="vertical"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:src="@drawable/img_profile"
+        app:border_color="@color/bg_menu"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_image"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valusername"
+            android:textSize="14sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:paddingBottom="4dp"
+            android:id="@+id/username"
+            android:layout_below="@+id/profile_image"
+            android:layout_alignRight="@+id/profile_image"
+            android:layout_alignEnd="@+id/profile_image" />
+    </LinearLayout>
+
+</RelativeLayout>

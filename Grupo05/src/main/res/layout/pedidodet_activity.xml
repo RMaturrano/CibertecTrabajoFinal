@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbAddPedido"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/toolbar_background"
+        android:minHeight="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_material_dark">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Cliente:"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorBlanco" />
+
+        <TextView
+            android:id="@+id/tvNomClienteAdd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:textColor="@color/colorBlanco"
+            android:paddingLeft="15dp"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spCliente"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:spinnerMode="dialog"
+            android:dropDownWidth="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="PRODUCTOS DEL CARRITO"
+        android:layout_weight="0.08"
+        android:textColor="@color/colorBlanco"
+        android:textSize="15sp"
+        android:textIsSelectable="false"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@color/colorPrimaryDark" />
+
+    <View style="@style/Separator" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvAddPedido"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.95"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TOTAL"
+            android:textColor="@color/colorBlanco" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="S/. "
+            android:textColor="@color/colorBlanco" />
+
+        <TextView
+            android:id="@+id/tvTotalPedido"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="0.00"
+            android:textSize="@dimen/edittextcrud"
+            android:textColor="@color/colorverde" />
+    </LinearLayout>
+</LinearLayout>
